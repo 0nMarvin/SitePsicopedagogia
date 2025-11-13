@@ -1,4 +1,95 @@
+/* Topbar */
 .topbar {
-  height: 40px;
-  background-color: var(--g3);
+  background-color: var(--p9);
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.topbar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.topbar-content span {
+  color: var(--g2);
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Nunito-Sans", sans-serif;
+  font-weight: 700;
+  transition: opacity 0.3s;
+}
+
+.topbar-contato {
+  display: flex;
+  gap: 24px;
+}
+
+.topbar-contato a {
+  color: var(--g1);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: opacity 0.3s;
+}
+
+.topbar-contato a:hover {
+  opacity: 0.8;
+}
+
+.topbar-contato svg {
+  width: 16px;
+  height: 16px;
+}
+
+.topbar-redes {
+  display: flex;
+  gap: 16px;
+}
+
+.topbar-redes a {
+  color: var(--g1);
+  text-decoration: none;
+  font-size: 13px;
+  transition: opacity 0.3s;
+}
+
+.topbar-redes a:hover {
+  opacity: 0.8;
+}
+
+.topbar-btn {
+  background-color: var(--g1);
+  color: var(--b9);
+  padding: 6px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.topbar-btn:hover {
+  background-color: var(--b4);
+  color: #fff;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .topbar {
+    font-size: 12px;
+    padding: 8px 0;
+  }
+
+  .topbar-content {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+
+  .topbar-contato {
+    flex-direction: column;
+    gap: 8px;
+  }
 }
