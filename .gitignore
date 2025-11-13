@@ -1,0 +1,20 @@
+# Arquivos do Sistema Operacional (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de Editor / IDE (especialmente VS Code)
+.vscode/
+
+# Arquivos de Log
+*.log
+npm-debug.log*
+
+# Pasta de dependências (muito importante se você usar Node.js no futuro)
+node_modules/
+
+# Arquivos de ambiente (para senhas, chaves de API, etc.)
+# NUNCA envie estes arquivos!
+.env
+.env.local
+*.env

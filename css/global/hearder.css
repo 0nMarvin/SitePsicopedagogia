@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7.5rem;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-logo {
+  width: 180px;
+  height: auto;
+}
+
+.header nav {
+  gap: 80px;
+  position: relative;
+}
+
+.header a {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.header-menu {
+  display: flex;
+  gap: 40px;
+}
+
+.header-menu li {
+  position: relative;
+}
+
+.header-menu li a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0px;
+  background-color: var(--p7);
+  transition: 0.3s;
+  position: absolute;
+}
+
+.header-menu li a:hover:after {
+  width: 100%;
+}
+
+#header-menu2::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 50px;
+  top: -10px;
+  right: 225px;
+  border-radius: 10px;
+  background-color: var(--g3);
+}

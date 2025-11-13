@@ -1,0 +1,64 @@
+.size-64 {
+  font-size: 64px;
+  line-height: 72px;
+}
+
+size-60 {
+  font-size: 60px;
+  line-height: 68px;
+}
+
+.size-36 {
+  font-size: 36px;
+  line-height: 44px;
+}
+
+.size-32 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.size-24 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.size-20 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.size-18 {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.size-16 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nunito {
+  font-family: "Nunito-Sans", sans-serif;
+  font-weight: 400;
+}
+
+.nunito-semi-bold {
+  font-family: "Nunito-Sans", sans-serif;
+  font-weight: 600;
+}
+
+.merriwater {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+.merriwater-bold {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.playwrite {
+  font-family: "Playwrite HU", serif;
+  font-weight: 400;
+}

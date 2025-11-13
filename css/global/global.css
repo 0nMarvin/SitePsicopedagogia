@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "merriwater", serif;
+  background-color: var(--g1);
+}
+
+h1,
+h2,
+p {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+}
+
+img {
+  display: inline-block;
+}
+
+.container {
+  max-width: 75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.enfase {
+  color: var(--b5);
+  font-weight: 700;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 36px;
+  line-height: 48px;
+  font-family: "Nunito-Sans", sans-serif;
+  padding: 16px 32px;
+  border-radius: 10px;
+  color: var(--p9);
+  background-color: var(--p1);
+}
+.btn:hover {
+  background-color: var(--p2);
+}

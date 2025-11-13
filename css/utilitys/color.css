@@ -1,0 +1,145 @@
+:root {
+  /* Grayscale (g1–g12) */
+  --g1: #ffffff;
+  --g2: #f5f5f5;
+  --g3: #cccccc;
+  --g4: #b8b8b8;
+  --g5: #a3a3a3;
+  --g6: #8f8f8f;
+  --g7: #7a7a7a;
+  --g8: #666666;
+  --g9: #525252;
+  --g10: #3d3d3d;
+  --g11: #292929;
+  --g12: #141414;
+
+  /* Pink (p1–p9) */
+  --p1: #f572d9;
+  --p2: #e966dc;
+  --p3: #d654e2;
+  --p4: #c148d9;
+  --p5: #9c37ca;
+  --p6: #8e25be;
+  --p7: #7c19a9;
+  --p8: #670e8f;
+  --p9: #4d0a6c;
+
+  /* Blue (b1–b10) */
+  --b1: #49f8e3;
+  --b2: #3dddef;
+  --b3: #2dbee6;
+  --b4: #23a2e2;
+  --b5: #1a88d8;
+  --b6: #1674cd;
+  --b7: #1258bf;
+  --b8: #1036b2;
+  --b9: #0916a4;
+  --b10: #080391;
+}
+
+/* Grayscale text colors */
+.text-g1 {
+  color: var(--g1) !important;
+}
+.text-g2 {
+  color: var(--g2) !important;
+}
+.text-g3 {
+  color: var(--g3) !important;
+}
+.text-g4 {
+  color: var(--g4) !important;
+}
+.text-g5 {
+  color: var(--g5) !important;
+}
+.text-g6 {
+  color: var(--g6) !important;
+}
+.text-g7 {
+  color: var(--g7) !important;
+}
+.text-g8 {
+  color: var(--g8) !important;
+}
+.text-g9 {
+  color: var(--g9) !important;
+}
+.text-g10 {
+  color: var(--g10) !important;
+}
+.text-g11 {
+  color: var(--g11) !important;
+}
+.text-g12 {
+  color: var(--g12) !important;
+}
+
+/* Pink text colors */
+.text-p1 {
+  color: var(--p1) !important;
+}
+.text-p2 {
+  color: var(--p2) !important;
+}
+.text-p3 {
+  color: var(--p3) !important;
+}
+.text-p4 {
+  color: var(--p4) !important;
+}
+.text-p5 {
+  color: var(--p5) !important;
+}
+.text-p6 {
+  color: var(--p6) !important;
+}
+.text-p7 {
+  color: var(--p7) !important;
+}
+.text-p8 {
+  color: var(--p8) !important;
+}
+.text-p9 {
+  color: var(--p9) !important;
+}
+
+/* Blue text colors */
+.text-b1 {
+  color: var(--b1) !important;
+}
+.text-b2 {
+  color: var(--b2) !important;
+}
+.text-b3 {
+  color: var(--b3) !important;
+}
+.text-b4 {
+  color: var(--b4) !important;
+}
+.text-b5 {
+  color: var(--b5) !important;
+}
+.text-b6 {
+  color: var(--b6) !important;
+}
+.text-b7 {
+  color: var(--b7) !important;
+}
+.text-b8 {
+  color: var(--b8) !important;
+}
+.text-b9 {
+  color: var(--b9) !important;
+}
+.text-b10 {
+  color: var(--b10) !important;
+}
+
+.bg-g2 {
+  background-color: var(--g2) !important;
+}
+
+.bg-g3 {
+  background-color: var(--g3) !important;
+}

@@ -1,0 +1,98 @@
+/* Seção de Perguntas Frequentes */
+.accordion {
+  max-width: 800px;
+  
+}
+
+/* Itens do Accordion */
+.accordion-item {
+  border: 2px solid #1258bf;
+  border-radius: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.accordion-item:first-child {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.accordion-item:last-child {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.accordion-item + .accordion-item {
+  border-top: none;
+}
+
+/* Botão da pergunta */
+.accordion-button {
+  font-size: 24px;
+  padding: 14px 20px;
+  color: var(--cor-g10, #333);
+  background-color: #fff;
+  border: none;
+  box-shadow: none;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #fff;
+  color: #1258bf;
+  box-shadow: none;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.accordion-button:hover {
+  background-color: #f8f9fa;
+}
+
+/* Ícone personalizado */
+.accordion-button::after {
+  width: 20px;
+  height: 20px;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231674CD'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  background-size: 20px;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%231258BF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg);
+}
+
+/* Corpo da resposta */
+.accordion-body {
+  padding: 16px 20px;
+  background-color: #fff;
+  border-top: 2px solid #1258bf;
+  line-height: 1.4;
+  font-size: 16px;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .accordion-button {
+    font-size: 14px;
+    padding: 12px 16px;
+  }
+
+  .accordion-body {
+    padding: 14px 16px;
+    font-size: 14px;
+  }
+
+  .accordion-button::after {
+    width: 18px;
+    height: 18px;
+    background-size: 18px;
+  }
+}

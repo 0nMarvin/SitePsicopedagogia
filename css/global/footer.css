@@ -1,0 +1,35 @@
+.footer {
+  background-color: var(--g3);
+  padding-top: 40px;
+  padding-bottom: 80px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  gap: 120px;
+}
+
+.footer-logo {
+  width: 260px;
+  height: auto;
+  position: relative; /* Necessário para o ::after funcionar */
+}
+
+.footer-ul-endereço {
+  padding-top: 20px;
+}
+
+/* #footer-detalhe::after {
+  content: "© 2025 Flaviane Psicopedagoga. Todos os direitos reservados.";
+  color: var(--g11);
+  position: absolute;
+  top: 88%; 
+  left: 0;
+  width: 100%;
+  font-size: 0.875rem;
+  text-align: center;
+  background-color: transparent;
+} */

@@ -1,0 +1,12 @@
+@import "./global/global.css";
+@import "./utilitys/color.css";
+
+@import "./global/hearder.css";
+@import "./global/topbar.css";
+@import "./global/footer.css";
+@import "./utilitys/typography.css";
+
+@import "./pages/homepage.css";
+
+@import "./bootstraps/carossel.css";
+@import "./bootstraps/accordion.css";

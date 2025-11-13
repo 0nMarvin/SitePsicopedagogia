@@ -1,0 +1,120 @@
+/* Wrapper do Carrossel */
+.carousel-wrapper {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+/* Card do Depoimento */
+.depoimento-card {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 16px;
+  padding: 40px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.depoimento-card:hover {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Header com avatar e nome */
+.depoimento-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.depoimento-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.depoimento-info {
+  flex: 1;
+}
+
+/* Texto do depoimento */
+.depoimento-texto {
+  flex: 1;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+/* Tag final */
+.depoimento-tag {
+  display: inline-block;
+  margin-top: auto;
+}
+
+/* Botões de navegação customizados */
+.carousel-control-custom {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: #00a8e8; /* Azul - ajuste para sua cor */
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.3s ease;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev-custom {
+  left: 0;
+}
+
+.carousel-control-next-custom {
+  right: 0;
+}
+
+.carousel-control-custom:hover {
+  color: #0077b6;
+  transform: translateY(-50%) scale(1.1);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .carousel-wrapper {
+    padding: 0 20px;
+  }
+
+  .depoimento-card {
+    padding: 24px;
+    min-height: auto;
+  }
+
+  .carousel-control-custom {
+    width: 40px;
+    height: 40px;
+  }
+
+  .carousel-control-custom svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .depoimento-header {
+    gap: 15px;
+  }
+
+  .depoimento-avatar {
+    width: 50px;
+    height: 50px;
+  }
+}
