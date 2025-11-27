@@ -21,42 +21,7 @@
   transition: opacity 0.3s;
 }
 
-.topbar-contato {
-  display: flex;
-  gap: 24px;
-}
-
-.topbar-contato a {
-  color: var(--g1);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  transition: opacity 0.3s;
-}
-
 .topbar-contato a:hover {
-  opacity: 0.8;
-}
-
-.topbar-contato svg {
-  width: 16px;
-  height: 16px;
-}
-
-.topbar-redes {
-  display: flex;
-  gap: 16px;
-}
-
-.topbar-redes a {
-  color: var(--g1);
-  text-decoration: none;
-  font-size: 13px;
-  transition: opacity 0.3s;
-}
-
-.topbar-redes a:hover {
   opacity: 0.8;
 }
 
@@ -82,14 +47,15 @@
     padding: 8px 0;
   }
 
-  .topbar-content {
-    flex-direction: column;
-    gap: 8px;
-    text-align: center;
-  }
-
   .topbar-contato {
     flex-direction: column;
     gap: 8px;
+  }
+}
+
+@media (max-width: 500px) {
+  .topbar-content {
+    flex-direction: column;
+    gap: 10px;
   }
 }

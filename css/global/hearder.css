@@ -51,7 +51,56 @@
   width: 5px;
   height: 50px;
   top: -10px;
-  right: 225px;
+  right: 300px;
   border-radius: 10px;
   background-color: var(--g3);
+}
+
+.bi .bi-list {
+  display: none;
+}
+
+@media (max-width: 1100px) {
+  .header {
+    gap: 40px;
+  }
+
+  .header nav {
+    padding-right: 40px;
+  }
+
+  .header-logo {
+    width: 150px;
+  }
+
+  #header-menu2 {
+    display: none;
+  }
+
+  .bi-list {
+    display: block;
+    width: 40px;
+    height: 40px;
+    fill: var(--g9);
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    gap: 5rem;
+    padding-left: 50px;
+  }
+  
+  .header-menu {
+    display: none;
+  }
+
+  .header-logo{
+    width: 120px;
+  }
+
+  .bi-list {
+    width: 64px;
+    height: 64px;
+  }
 }

@@ -80,3 +80,123 @@
   background-color: var(--b7);
   position: absolute;
 }
+
+/* Responsivo */
+@media (max-width: 1200px) {
+  #foto-Atendimento {
+    width: 322px;
+    height: auto;
+  }
+
+  #foto-Cursos {
+    width: 422px;
+    height: auto;
+  }
+
+    #foto-Supervisor {
+    width: 322px;
+    height: auto;
+  }
+
+  .principal-texto h1 {
+    font-size: 48px;
+  }
+
+  .principal-texto p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 950px) {
+  .principal {
+    margin-top: 40px;
+  }
+  .principal img {
+    display: none;
+  }
+
+  .principal-texto h1 {
+    font-size: 32px;
+  }
+  .principal-texto {
+    padding: 8px;
+    gap: 8px;
+  }
+
+  .description {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .description-box h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .description-box p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 550px) {
+  .principal {
+    margin-top: 24px;
+  }
+
+  .description-box {
+    width: calc(100% - 32px);
+    max-width: 360px;
+    padding: 16px 18px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .description {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 80px;
+  }
+
+  .principal-texto {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .principal-texto h1 {
+    font-size: 28px;
+  }
+
+  .principal-texto p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .description-box {
+    width: calc(100% - 20px);
+    padding: 14px 16px;
+  }
+
+  .description-box h2 {
+    font-size: 24px;
+  }
+
+  .description-box h2::after {
+    top: 70px;
+  }
+
+  .description-box h2::before {
+    height: 80px;
+    width: 8px;
+    left: -8px;
+    top: 25px;
+  }
+
+  .description-box p {
+    font-size: 14px;
+  }
+
+  .principal-texto h1 {
+    font-size: 24px;
+  }
+}

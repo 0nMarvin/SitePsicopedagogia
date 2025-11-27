@@ -102,9 +102,13 @@
 }
 
 /* Painel Esquerdo (Informações) */
+.mapa-div {
+  padding-bottom: 120px;
+}
+
 .info-panel {
   background-color: #1a1a1a;
-  padding: 40px 30px 120px 30px;
+  padding: 40px 30px 10px 30px;
   color: #fff;
   display: flex;
   flex-direction: column;
