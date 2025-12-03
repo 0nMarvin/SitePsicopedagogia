@@ -89,9 +89,9 @@
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .carousel-wrapper {
-    padding: 0 20px;
+    padding: 0 70px;
   }
 
   .depoimento-card {
@@ -99,14 +99,15 @@
     min-height: auto;
   }
 
+  /* Botões MAIORES no mobile */
   .carousel-control-custom {
-    width: 40px;
-    height: 40px;
+    width: 56px;
+    height: 56px;
   }
 
   .carousel-control-custom svg {
-    width: 30px;
-    height: 30px;
+    width: 56px;
+    height: 56px;
   }
 
   .depoimento-header {
@@ -116,5 +117,75 @@
   .depoimento-avatar {
     width: 50px;
     height: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .carousel-wrapper {
+    padding: 0 65px;
+  }
+
+  /* Botões AINDA MAIORES em telas pequenas */
+  .carousel-control-custom {
+    display: none;
+  }
+
+  .carousel-control-custom svg {
+    display: none;
+  }
+
+  .depoimento-header {
+    gap: 10px;
+    font-size: 20px;
+    margin-bottom: 12px;
+  }
+  .depoimento-texto {
+    font-size: 14px;
+  }
+
+  @media (max-width: 440px) {
+    .carousel-wrapper {
+      padding: 0 50px;
+    }
+
+    .depoimento-card {
+      padding: 16px;
+      border-radius: 12px;
+      height: auto;
+      min-height: 300px;
+    }
+
+    .depoimento-header {
+      gap: 8px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .depoimento-avatar {
+      width: 40px;
+      height: 40px;
+    }
+
+    .depoimento-info{
+      gap: 4px;
+    }
+
+    .depoimento-info h3 {
+      font-size: 16px;
+    }
+
+    .depoimento-info p {
+      font-size: 12px;
+    }
+
+    .depoimento-texto {
+      font-size: 13px;
+      line-height: 1.5;
+      margin-bottom: 12px;
+    }
+
+    .depoimento-tag {
+      font-size: 12px;
+    }
   }
 }
